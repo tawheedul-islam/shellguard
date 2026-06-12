@@ -1,0 +1,9 @@
+*.o
+shellguard
+test_corpus/fileio_test
+test_corpus/fork_test
+test_corpus/output.txt
+shellguard.log
+result_*.txt
+test1
+test.txt
