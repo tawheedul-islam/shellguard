@@ -1,0 +1,23 @@
+# format: ACTION SYSCALL_NAME
+# comment lines start with #
+
+ALLOW read
+ALLOW write
+ALLOW open
+ALLOW openat
+ALLOW close
+ALLOW fstat
+ALLOW lseek
+ALLOW mmap
+ALLOW munmap
+ALLOW brk
+ALLOW exit
+ALLOW exit_group
+ALLOW rt_sigreturn
+ALLOW arch_prctl
+ALLOW access
+ALLOW execve
+
+DENY socket
+DENY connect
+DENY ptrace
