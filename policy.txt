@@ -1,22 +1,45 @@
 # format: ACTION SYSCALL_NAME
-# comment lines start with #
-
 ALLOW read
 ALLOW write
 ALLOW open
 ALLOW openat
 ALLOW close
 ALLOW fstat
+ALLOW lstat
+ALLOW stat
 ALLOW lseek
 ALLOW mmap
 ALLOW munmap
+ALLOW mprotect
 ALLOW brk
 ALLOW exit
 ALLOW exit_group
 ALLOW rt_sigreturn
+ALLOW rt_sigaction
+ALLOW rt_sigprocmask
 ALLOW arch_prctl
 ALLOW access
 ALLOW execve
+ALLOW getrandom
+ALLOW set_robust_list
+ALLOW set_tid_address
+ALLOW prlimit64
+ALLOW rseq
+ALLOW pread64
+ALLOW dup
+ALLOW dup2
+ALLOW fcntl
+ALLOW ioctl
+ALLOW getcwd
+ALLOW getpid
+ALLOW getppid
+ALLOW gettid
+ALLOW uname
+ALLOW wait4
+ALLOW clone
+ALLOW pipe
+ALLOW pipe2
+ALLOW madvise
 
 DENY socket
 DENY connect
