@@ -40,6 +40,7 @@ ALLOW clone
 ALLOW pipe
 ALLOW pipe2
 ALLOW madvise
+ALLOW futex
 
 DENY socket
 DENY connect
