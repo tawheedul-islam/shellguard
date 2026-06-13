@@ -1,0 +1,47 @@
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./malicious.sh] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./malicious.sh] KILLED by signal 31 (Bad system call)
+[./malicious.sh] KILLED by signal 31 (Bad system call)
+[./test_corpus/fileio_test] KILLED by signal 31 (Bad system call)
+[./test_corpus/fork_test] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./malicious.sh] KILLED by signal 31 (Bad system call)
+[./test_corpus/fileio_test] KILLED by signal 31 (Bad system call)
+[./test_corpus/fork_test] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./malicious.sh] KILLED by signal 31 (Bad system call)
+[./test_corpus/fileio_test] KILLED by signal 31 (Bad system call)
+[./test_corpus/fork_test] KILLED by signal 31 (Bad system call)
+[./test_corpus/fork_test] KILLED by signal 31 (Bad system call)
+[./malicious.sh] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./benign.sh] KILLED by signal 31 (Bad system call)
+[./benign.sh] Exited normally, code=0
+[./benign.sh] Exited normally, code=0
+[./malicious.sh] Exited normally, code=0
+[./test_corpus/fileio_test] Exited normally, code=0
+[./test_corpus/fork_test] Exited normally, code=0
+[./malicious.sh] Exited normally, code=0
+[./test_corpus/fork_test] KILLED by signal 31 (Bad system call)
+[./benign.sh] Exited normally, code=0
+[./malicious.sh] Exited normally, code=0
+[./test_corpus/fileio_test] Exited normally, code=0
+[./test_corpus/fork_test] Exited normally, code=0
+[./test_corpus/fork_test] KILLED by signal 31 (Bad system call)
+[./benign.sh] Exited normally, code=0
+[./benign.sh] Exited normally, code=0
+[./malicious.sh] Exited normally, code=0
+[./test_corpus/fork_test] Exited normally, code=0
+[./test_corpus/fileio_test] Exited normally, code=0
+[./test_corpus/fork_test] KILLED by signal 31 (Bad system call)
+[./test_corpus/fileio_test] Exited normally, code=0
