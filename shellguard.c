@@ -52,7 +52,13 @@ void apply_seccomp(Rule *rules, int count) {
                 fprintf(stderr, "Unknown syscall: %s (skipped)\n", rules[i].syscall_name);
                 continue;
             }
-            seccomp_rule_add(ctx, SCMP_ACT_ALLOW, syscall_num, 0);
+            
+              int ret = seccomp_rule_add(ctx, SCMP_ACT_ALLOW, syscall_num, 0);
+            if (ret != 0) {
+                fprintf(stderr, "rule_add failed for %s (errno %d)\n", rules[i].syscall_name, -ret);
+            } else {
+                fprintf(stderr, "ALLOWED: %s (syscall %d)\n", rules[i].syscall_name, syscall_num);
+            }
         }
     }
 
